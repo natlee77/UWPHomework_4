@@ -35,8 +35,9 @@
 
                         <StackPanel Grid.Column="0" Margin="0,10,40,10">
                             <TextBlock Text="Message sent : " FontSize="24"/>
-                            <TextBlock Text="{Binding info}"/>
-                            
+                            <TextBlock Text="{Binding}"/>
+                            <TextBlock Text="{Binding humidity}"/>
+                            <TextBlock Text="{Binding temperatura}"/>
                         </StackPanel>
 
                     </Grid>
